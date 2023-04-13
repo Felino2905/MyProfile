@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!--Inicio de Menu Encabezado-->
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <a href="">Fernando</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="" onclick="seleccionar()"></a>Inicio</li>
+                        <li><a href="" onclick="seleccionar()"></a>Sobre Mi</li>
+                        <li><a href="" onclick="seleccionar()"></a>Skills</li>
+                        <li><a href="" onclick="seleccionar()"></a>CV</li>
+                        <li><a href="" onclick="seleccionar()"></a>Portafolio</li>
+                        <li><a href="" onclick="seleccionar()"></a>Contacto</li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i></i>
+                </div>
+            </header>
+        </div>
+        <!--Fin de Menu Encabezado-->
+
+
+        <!--Inicio de Seccion Inicio-->
+        <section class="inicio" id="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="" alt="...">
+                </div>
+                <h1>Fernando LF</h1>
+                <h2>Ingenieria en Software</h2>
+                <div class="redes">
+                    <a href=""><i></i></a>
+                    <a href=""><i></i></a>
+                    <a href=""><i></i></a>
+                    <a href=""><i></i></a>
+                    <a href=""><i></i></a>
+                </div>
+            </div>
+        </section>
+        <!--Fin de Seccion de Inicio-->
+
+
+        <!--Inicio de Seccion sobre mi-->
+        <section class="sonremi" id="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre mi</h2>
+                <div class="fila">
+                    <!--Datos Personales-->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños:</strong>
+                                29-05-1994
+                            </li>
+                            <li>
+                                <strong>Teléfono 1:</strong>
+                                7221757904
+                            </li>
+                            <li><strong>Teléfono 2:</strong>
+                                7298552252
+                            </li>
+                            <li>
+                                <strong>Correo:</strong>
+                                fernandolf94@hotmail.com
+                            </li>
+                            <li>
+                                <strong>Dirección:</strong>
+                                Ocoyoacac, Estado de México
+                            </li>
+                            <li>
+                                <strong>Cargo:</strong>
+                                Pasante de Ingenería
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="intereses">
+                                <span>Juegos</span>
+                            </div>
+                            <div class="intereses">
+                                <span>Musica</span>
+                            </div>
+                            <div class="intereses">
+                                <span>Futbol</span>
+                            </div>
+                            <div class="intereses">
+                                <span>Cocinar</span>
+                            </div>
+                            <div class="intereses">
+                                <span>Leer</span>
+                            </div>
+                            <div class="intereses">
+                                <span>Comics</span>
+                            </div>
+                            <div class="intereses">
+                                <span>Correr</span>
+                            </div>
+                            <div class="intereses">
+                                <span>Memes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV <i></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+        </section>
+        <!--Fin de Seccion sobre mi-->
+
+
+        <!--Inicio de Seccion Intereses-->
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>Skills</h2>
+                <div class="fila">
+                    <!--Inicio de Herramientas-->
+                    <div class="col">
+                        <h3>Technical Skills</h3>
+                        <div class="skill">
+                            <span>HTML</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Javascript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>PHP</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>MySQL</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>PostgreSQL</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Java-JSP</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Bootstrap</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Python-Django</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fin de Herramientas-->
+
+                    <!--Inicio de Habilidades-->
+                    <div class="col">
+                        <h3>Habilidades Profesionales</h3>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Trabajo en Equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Aprendizaje Continúo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Capacidad de Adaptación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Sociable</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fin de Habilidades-->
+                </div>
+            </div>
+        </section>
+        <!--Fin de Seccion Intereses-->
+
+
+        <!--Inicio de Seccion CV-->
+        <section class="curriculum" id="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Ingenieria en Software</h4>
+                            <span class="casa">UAPT</span>
+                            <span class="fecha">2016-2022</span>
+                            <p>Pasante en Ingenieria en Software</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Ingenieria en Tic</h4>
+                            <span class="casa">UTVT</span>
+                            <span class="fecha">2012-2013</span>
+                            <p>Carrera Trunca</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Tecnico en Informatica</h4>
+                            <span class="casa">CBT "Luis Camarena Gonzalez"</span>
+                            <span class="fecha">2009-2012</span>
+                            <p>Titulado en Tecnico en Informatica</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+
+                        <div class="col derecha">
+                            <h3>Experciencia de Trabajo</h3>
+                            <div class="item der">
+                                <h4>Desarrollo</h4>
+                                <span class="casa">Studio Kosmic</span>
+                                <span class="fecha">Marzo-Agosto 2022</span>
+                                <p>Sistema de Inventario para control de Almacen</p>
+                                <div class="conectord">
+                                    <div class="circulod"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fin de Seccion CV-->
+
+
+        <!--Inicio de Seccion Portafolio-->
+        <section class="portafolio" id="portafolio">
+            <div class="contenido-seccion">
+                <h2>Portafolio</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="" alt="...">
+                        <div class="over lay">
+                            <h3>Desarrollo Libreria</h3>
+                            <p>Sistema de Libros</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="" alt="...">
+                        <div class="over lay">
+                            <h3>Desarrollo Libreria</h3>
+                            <p>Sistema de Libros</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="" alt="...">
+                        <div class="over lay">
+                            <h3>Desarrollo Libreria</h3>
+                            <p>Sistema de Libros</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="" alt="...">
+                        <div class="over lay">
+                            <h3>Desarrollo Libreria</h3>
+                            <p>Sistema de Libros</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="" alt="...">
+                        <div class="over lay">
+                            <h3>Desarrollo Libreria</h3>
+                            <p>Sistema de Libros</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="" alt="...">
+                        <div class="over lay">
+                            <h3>Desarrollo Libreria</h3>
+                            <p>Sistema de Libros</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fin de Seccion Portafolio-->
+
+
+        <!--Inicio de Seccion Contacto-->
+        <section class="contacto" id="contacto">
+            <div class="contenido-seccion">
+                <h2>Contacto</h2>
+                <div class="fila">
+                    <!--Formulario-->
+                    <div class="col">
+                        <input type="text" placeholder="Ingres tu Nombre">
+                        <input type="text" placeholder="Ingresa numero telefonico">
+                        <input type="text" placeholder="Direccion de Correo">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <button>
+                            Enviar Mensaje <i></i>
+                            <span class="over lay"></span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fin de Seccion Contacto-->
+
+
+        <!--Inicio de Pie de Pagina-->
+        <footer>
+            <a href="" class="arriba">
+                <i></i>
+            </a>
+            <div class="redes">
+                <a href=""><i></i></a>
+                <a href=""><i></i></a>
+                <a href=""><i></i></a>
+                <a href=""><i></i></a>
+                <a href=""><i></i></a>
+            </div>
+        </footer>
+        <!--Fin de Pie de Pagina-->
+
+        <!--Script Externo-->
+        <script src=""></script>
+    </body>
+</html>
