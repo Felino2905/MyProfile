@@ -6,31 +6,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portafolio</title>
         <link rel="stylesheet" href="css/estilo.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <!--Inicio de Menu Encabezado-->
+        <!--Inicio Menu Encabezado-->
         <div class="contenedor-header">
             <header>
+                <!--Inicio Apartado de logo-->
                 <div class="logo">
                     <a href="">Fernando</a>
                 </div>
+                <!--Fin Apartado de logo-->
+                <!--Inicio Apartado de menu-->
                 <nav id="nav">
                     <ul>
-                        <li><a href="" onclick="seleccionar()"></a>Inicio</li>
-                        <li><a href="" onclick="seleccionar()"></a>Sobre Mi</li>
-                        <li><a href="" onclick="seleccionar()"></a>Skills</li>
-                        <li><a href="" onclick="seleccionar()"></a>CV</li>
-                        <li><a href="" onclick="seleccionar()"></a>Portafolio</li>
-                        <li><a href="" onclick="seleccionar()"></a>Contacto</li>
+                        <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                        <li><a href="#sobremi"><i class="fa-solid fa-person"></i> Sobre_Mi</a></li>
+                        <li><a href="#skills"><i class="fa-solid fa-screwdriver-wrench"></i> Skills</a></li>
+                        <li><a href="#curriculum"><i class="fa-solid fa-rectangle-list"></i> Curriculum</a></li>
+                        <li><a href="#portafolio"><i class="fa-solid fa-laptop"></i> Portafolio</a></li>
+                        <li><a href="#contacto"><i class="fa-solid fa-address-book"></i> Contacto</a></li>
                     </ul>
                 </nav>
                 <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                    <i></i>
+                <i class="fa-solid fa-bars"></i>
                 </div>
+                <!--Fin Apartado de menu-->
             </header>
         </div>
         <!--Fin de Menu Encabezado-->
@@ -40,16 +41,16 @@
         <section class="inicio" id="inicio">
             <div class="contenido-banner">
                 <div class="contenedor-img">
-                    <img src="" alt="...">
+                    <img src="img/img.jpeg" alt="...">
                 </div>
                 <h1>Fernando LF</h1>
                 <h2>Ingenieria en Software</h2>
                 <div class="redes">
-                    <a href=""><i></i></a>
-                    <a href=""><i></i></a>
-                    <a href=""><i></i></a>
-                    <a href=""><i></i></a>
-                    <a href=""><i></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </section>
@@ -57,7 +58,7 @@
 
 
         <!--Inicio de Seccion sobre mi-->
-        <section class="sonremi" id="sobremi">
+        <section class="sobremi" id="sobremi">
             <div class="contenido-seccion">
                 <h2>Sobre mi</h2>
                 <div class="fila">
@@ -90,35 +91,46 @@
                             </li>
                         </ul>
                     </div>
+                    <!--Inicio intereses personales-->
                     <div class="col">
                         <h3>Intereses</h3>
                         <div class="contenedor-intereses">
-                            <div class="intereses">
-                                <span>Juegos</span>
+                            <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            Videojuegos
                             </div>
-                            <div class="intereses">
-                                <span>Musica</span>
+                            <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            Escuchar Musica
                             </div>
-                            <div class="intereses">
-                                <span>Futbol</span>
+                            <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            Aprender a programar
                             </div>
-                            <div class="intereses">
-                                <span>Cocinar</span>
+                            <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            Novelas Policiacas
                             </div>
-                            <div class="intereses">
-                                <span>Leer</span>
+                            <div class="interes">
+                            <i class="fa-solid fa-tv"></i>
+                            Series o Peliculas
                             </div>
-                            <div class="intereses">
-                                <span>Comics</span>
+                            <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            Fútbol
                             </div>
-                            <div class="intereses">
-                                <span>Correr</span>
+                            <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            Autos Japoneses
                             </div>
-                            <div class="intereses">
-                                <span>Memes</span>
+                            <div class="interes">
+                            <i class="fa-solid fa-person-walking"></i>
+                            Caminatas a Bosques
                             </div>
                         </div>
                     </div>
+                        <!--fin intereses personales-->
+                </div>
                 </div>
                 <button>
                     Descargar CV <i></i>
@@ -131,7 +143,7 @@
 
         <!--Inicio de Seccion Intereses-->
         <section class="skills" id="skills">
-            <div class="contenido-seccion">
+            <div class="contenido-skills">
                 <h2>Skills</h2>
                 <div class="fila">
                     <!--Inicio de Herramientas-->
@@ -140,72 +152,72 @@
                         <div class="skill">
                             <span>HTML</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso html">
+                                    <span>45%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>CSS</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso css">
+                                    <span>40%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>Javascript</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso javascript">
+                                    <span>35%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>PHP</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso php">
+                                    <span>45%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>MySQL</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso mysql">
+                                    <span>40%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>PostgreSQL</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso postgresql">
+                                    <span>40%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>Java-JSP</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso java">
+                                    <span>40%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>Bootstrap</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso bootstrap">
+                                    <span>60%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>Python-Django</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso python">
+                                    <span>30%</span>
                                 </div>
                             </div>
                         </div>
@@ -218,56 +230,56 @@
                         <div class="skill">
                             <span>Comunicación</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso comunicacion">
+                                    <span>90%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>Trabajo en Equipo</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso trabajo">
+                                    <span>90%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>Creatividad</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso creatividad">
+                                    <span>80%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>Dedicación</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso dedicacion">
+                                    <span>90%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>Aprendizaje Continúo</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso aprendizaje">
+                                    <span>85%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>Capacidad de Adaptación</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso capacidad">
+                                    <span>80%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="skill">
                             <span>Sociable</span>
                             <div class="barra-skill">
-                                <div class="progreso">
-                                    <span></span>
+                                <div class="progreso sociable">
+                                    <span>90%</span>
                                 </div>
                             </div>
                         </div>
@@ -426,6 +438,6 @@
         <!--Fin de Pie de Pagina-->
 
         <!--Script Externo-->
-        <script src=""></script>
+        <script src="js/funcion.js"></script>
     </body>
 </html>
